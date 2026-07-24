@@ -1,0 +1,14 @@
+#Entorno virtual
+virtual/
+venv/
+.venv/
+
+#cache de python
+__pycache__/
+*.pyc
+
+#vs code
+.vscode/
+
+#pycharm
+.idea/
