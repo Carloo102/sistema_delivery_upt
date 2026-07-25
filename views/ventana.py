@@ -6,3 +6,4 @@ class Ventana:
         self._ventana = ventana
         self._ventana.title = "UPT Delivery"
         self._ventana.add(PanelLogin())
+        
