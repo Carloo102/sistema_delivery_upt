@@ -1,4 +1,4 @@
-from flet import Container, Column, Text, TextField, FilledButton, Control, CrossAxisAlignment, FontWeight, Colors
+from flet import Container, Column, Text, TextField, FilledButton, Control, CrossAxisAlignment, FontWeight
 
 class PanelLogin(Container):
     def __init__(self) -> None:
@@ -18,12 +18,12 @@ class PanelLogin(Container):
                                                 password=True,
                                                 can_reveal_password=True)
         self.btn_iniciar_sesion = FilledButton("Iniciar sesion",
-                                               bgcolor=Colors.RED,
+                                               bgcolor= "#8B2635",
                                                on_click=self.click_iniciar_sesion)
         self.mensaje_de_texto = Text(value="")
         self.lbl_mensaje_registrarse = Text("¿No tienes cuenta aun? Registrate")
         self.btn_registrarse = FilledButton("Registrarse",
-                                            bgcolor=Colors.RED)
+                                            bgcolor= "#8B2635")
 
     def arreglo_controles(self) -> list[Control]:
         return[
